@@ -25,7 +25,7 @@ const IndexPage = () => {
         setResponseData(response.data);
         
         if (!response.data || response.data.length === 0) {
-          setError("Perconne n'a été reconnu, surement une célébrité en devenir !");
+          setError("Personne n'a été reconnu, surement une célébrité en devenir !");
           console.log(error.message)
         } else {
           setError(null); // Clear error if response is not empty
